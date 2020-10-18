@@ -5,7 +5,7 @@ import { MEMBERS } from './mock-members';
 
 @Injectable()
 export class MemberService {
-  getMembers(): Member[] {
-    return MEMBERS;
+  getMembers(): Promise<Member[]> {
+    return Promise.resolve(MEMBERS);
   }
 }
