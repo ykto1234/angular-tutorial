@@ -64,7 +64,7 @@ import { MemberService } from './member.service';
       margin-right: .8em;
       border-radius: 4px 0 0 4px;
     }
-  `]
+  `],
 })
 export class MembersComponent implements OnInit {
   title = '自社社員名簿';
